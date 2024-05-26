@@ -24,11 +24,9 @@ public class LinkedListExample {
 
         System.out.println("First element: " + linkedList.getFirst());
 
-        // Additional operations for LinkedList
-        // Check if the list contains an element
+      
         System.out.println("Contains 'Fox'? " + linkedList.contains("Fox"));
 
-        // Get the size of the list
         System.out.println("Size of the list: " + linkedList.size());
 
         // Clear the list
