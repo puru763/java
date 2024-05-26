@@ -20,5 +20,23 @@ public class PriorityQueueExample {
 
         // Check if an element exists
         System.out.println("Contains 'Banana': " + priorityQueue.contains("Banana"));
+
+        // Add an element
+        priorityQueue.add("Date");
+        System.out.println("After adding Date: " + priorityQueue);
+
+        // Remove an element
+        priorityQueue.remove("Cherry");
+        System.out.println("After removing Cherry: " + priorityQueue);
+
+        // Get the size of the queue
+        System.out.println("Size of the queue: " + priorityQueue.size());
+
+        // Clear the queue
+        priorityQueue.clear();
+        System.out.println("After clearing the queue: " + priorityQueue);
+
+        // Check if the queue is empty
+        System.out.println("Is the queue empty? " + priorityQueue.isEmpty());
     }
 }

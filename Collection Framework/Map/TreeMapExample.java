@@ -1,3 +1,5 @@
+import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class TreeMapExample {
@@ -17,5 +19,25 @@ public class TreeMapExample {
 
         // Get the last key-value pair
         System.out.println("Last entry: " + treeMap.lastEntry());
+
+        // Get the size of the map
+        System.out.println("Size of the map: " + treeMap.size());
+
+        // Clear the map
+        treeMap.clear();
+        System.out.println("After clearing the map: " + treeMap);
+
+        // Get a set of all keys
+        treeMap.put("Elephant", 1);
+        treeMap.put("Fox", 2);
+        treeMap.put("Giraffe", 3);
+        Set<String> keys = treeMap.keySet();
+        System.out.println("All keys: " + keys);
+
+       
+
+        // Get a set of all key-value pairs
+        Set<Map.Entry<String, Integer>> entries = treeMap.entrySet();
+        System.out.println("All key-value pairs: " + entries);
     }
 }

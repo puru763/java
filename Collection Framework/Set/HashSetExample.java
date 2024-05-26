@@ -18,5 +18,19 @@ public class HashSetExample {
         // Remove an element
         hashSet.remove("Banana");
         System.out.println("After removing 'Banana': " + hashSet);
+
+        // Add an element
+        hashSet.add("Date");
+        System.out.println("After adding Date: " + hashSet);
+
+        // Get the size of the set
+        System.out.println("Size of the set: " + hashSet.size());
+
+        // Clear the set
+        hashSet.clear();
+        System.out.println("After clearing the set: " + hashSet);
+
+        // Check if the set is empty
+        System.out.println("Is the set empty? " + hashSet.isEmpty());
     }
 }
