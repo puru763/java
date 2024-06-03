@@ -10,6 +10,8 @@ public class HashMapExample {
         hashMap.put("Apple", 1);
         hashMap.put("Banana", 2);
         hashMap.put("Cherry", 3);
+       hashMap.put("Banana", 2);
+
 
         System.out.println("HashMap:");
         System.out.println("Initial Map: " + hashMap);
