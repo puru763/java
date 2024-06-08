@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Vector;
 
 class Digital {
@@ -5,8 +6,9 @@ class Digital {
     public static void main(String[] args) {
         String s = "abc123abc123ab12a1";
 
-        Vector<String> words = new Vector<>();
-        Vector<String> numbers = new Vector<>();
+        ArrayList<String> words = new ArrayList<>();
+        ArrayList<String> numbers = new ArrayList<>();
+
         String ans = "";
 
         for (int i = 0; i < s.length(); i++) {
